@@ -20,7 +20,7 @@
             android:max="100"
             android:progress="50" />
 
-        <org.ebookdroid.ui.viewer.views.BookmarkView
+        <org.documentviewer.ui.viewer.views.BookmarkView
             android:id="@+id/bookmarkName"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

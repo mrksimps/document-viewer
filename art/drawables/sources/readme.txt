@@ -59,7 +59,10 @@ Things to do:
 Possible eyecandy enhancements
 ==============================
 
-In Android 2, reversing or removing gradient coloring from actionbars background. At the moment now (vers. 1.5.3 dev 1688) the gradient is such as to present a grey-whitish discontinuity near the top black bar of the screen and a fading to black toward Ebookdroid area. In this way the first black row in filebrowse mode looks bigger then the ones below.
+In Android 2, reversing or removing gradient coloring from actionbars
+background. At the moment now (vers. 1.5.3 dev 1688) the gradient is such as
+to present a grey-whitish discontinuity near the top black bar of the screen
+and a fading to black toward Document Viewer area. In this way the first black row in filebrowse mode looks bigger then the ones below.
 Reversing the gradient, or removing it could fix this asymmetry.
 
 Outline view: 

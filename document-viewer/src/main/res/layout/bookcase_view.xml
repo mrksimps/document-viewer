@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.ebookdroid.ui.library.views.BookcaseView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.documentviewer.ui.library.views.BookcaseView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/Bookcase"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -66,4 +66,4 @@
         android:layout_below="@id/BookcaseCaption"
         android:layout_gravity="fill" />
 
-</org.ebookdroid.ui.library.views.BookcaseView>
+</org.documentviewer.ui.library.views.BookcaseView>

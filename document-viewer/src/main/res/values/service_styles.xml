@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="ebookdroid" parent="android:Theme.NoTitleBar"></style>
+    <style name="documentviewer" parent="android:Theme.NoTitleBar"></style>
 
     <!-- actionbar -->
     <style name="action_bar">

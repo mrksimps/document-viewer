@@ -23,7 +23,7 @@ public class FontPickerPreference extends ListPreference {
     public FontPickerPreference(final Context context, final AttributeSet attrs) {
         super(context, attrs);
 
-        final String fontFamily = WidgetUtils.getStringAttribute(context, attrs, WidgetUtils.EBOOKDROID_NS,
+        final String fontFamily = WidgetUtils.getStringAttribute(context, attrs, WidgetUtils.DOCUMENTVIEWER_NS,
                 WidgetUtils.ATTR_FONT_FAMILY, null);
 
         type = EnumUtils.getByResValue(FontFamilyType.class, fontFamily, null);

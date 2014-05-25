@@ -1,5 +1,5 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ebookdroid="http://ebookdroid.org"
+    xmlns:documentviewer="http://documentviewer.org"
     android:key="backup_prefs"
     android:summary="@string/pref_backup_category_summary"
     android:title="@string/pref_backup_category" >
@@ -21,8 +21,8 @@
         android:key="@string/pref_maxnumberofautobackups_id"
         android:summary="@string/pref_maxnumberofautobackups_summary"
         android:title="@string/pref_maxnumberofautobackups_title"
-        ebookdroid:maxValue="@string/pref_maxnumberofautobackups_maxvalue"
-        ebookdroid:minValue="@string/pref_maxnumberofautobackups_minvalue" />
+        documentviewer:maxValue="@string/pref_maxnumberofautobackups_maxvalue"
+        documentviewer:minValue="@string/pref_maxnumberofautobackups_minvalue" />
 
     <ListPreference
         android:defaultValue="@string/pref_bookbackuptype_defvalue"

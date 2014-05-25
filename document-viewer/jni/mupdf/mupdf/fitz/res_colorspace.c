@@ -82,7 +82,7 @@ static void rgb_to_bgr(fz_context *ctx, fz_colorspace *cs, float *rgb, float *bg
 static void cmyk_to_rgb(fz_context *ctx, fz_colorspace *cs, float *cmyk, float *rgb)
 {
 	// EBD: context flag used instead >>>
-	if (ctx->ebookdroid_slowcmyk) {
+	if (ctx->documentviewer_slowcmyk) {
 	// EBD: context flag used instead <<<
 	float c = cmyk[0], m = cmyk[1], y = cmyk[2], k = cmyk[3];
 	float c1 = 1 - c, m1 = 1 - m, y1 = 1 - y, k1 = 1 - k;
@@ -316,7 +316,7 @@ static void fast_cmyk_to_rgb(fz_context *ctx, fz_pixmap *dst, fz_pixmap *src)
 	while (n--)
 	{
 	// EBD: context flag used instead >>>
-	if (ctx->ebookdroid_slowcmyk) {
+	if (ctx->documentviewer_slowcmyk) {
 	// EBD: context flag used instead <<<
 		float cmyk[4], rgb[3];
 		cmyk[0] = s[0] / 255.0f;
@@ -350,7 +350,7 @@ static void fast_cmyk_to_bgr(fz_context *ctx, fz_pixmap *dst, fz_pixmap *src)
 	while (n--)
 	{
 	// EBD: context flag used instead >>>
-	if (ctx->ebookdroid_slowcmyk) {
+	if (ctx->documentviewer_slowcmyk) {
 	// EBD: context flag used instead <<<
 		float cmyk[4], rgb[3];
 		cmyk[0] = s[0] / 255.0f;
@@ -674,7 +674,7 @@ fz_convert_color(fz_context *ctx, fz_colorspace *ds, float *dv, fz_colorspace *s
 		else if (ds == fz_device_rgb)
 		{
 		// EBD: context flag used instead >>>
-		if (ctx->ebookdroid_slowcmyk) {
+		if (ctx->documentviewer_slowcmyk) {
 		// EBD: context flag used instead <<<
 			cmyk_to_rgb(ctx, NULL, sv, dv);
 		// EBD: context flag used instead >>>
@@ -690,7 +690,7 @@ fz_convert_color(fz_context *ctx, fz_colorspace *ds, float *dv, fz_colorspace *s
 		else if (ds == fz_device_bgr)
 		{
 		// EBD: context flag used instead >>>
-		if (ctx->ebookdroid_slowcmyk) {
+		if (ctx->documentviewer_slowcmyk) {
 		// EBD: context flag used instead <<<
 			float rgb[3];
 			cmyk_to_rgb(ctx, NULL, sv, rgb);

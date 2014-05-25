@@ -10,24 +10,24 @@ char font_DroidSerifRegular[] = "/system/fonts/DroidSerif-Regular.ttf";
 char font_DroidSerifBold[] = "/system/fonts/DroidSerif-Bold.ttf";
 char font_DroidSerifItalic[] = "/system/fonts/DroidSerif-Italic.ttf";
 char font_DroidSerifBoldItalic[] = "/system/fonts/DroidSerif-BoldItalic.ttf";
-char font_StandardSym[] = "/sdcard/.org.ebookdroid/StandardSymL.cff";
-char font_Dingbats[] = "/sdcard/.org.ebookdroid/Dingbats.cff";
+char font_StandardSym[] = "/sdcard/.org.documentviewer/StandardSymL.cff";
+char font_Dingbats[] = "/sdcard/.org.documentviewer/Dingbats.cff";
 char font_DroidSansFallback[] = "/system/fonts/DroidSansFallback.ttf";
 
-char ext_font_Courier[1024]; //= "/sdcard/.org.ebookdroid/fonts/FreeMono.ttf";
-char ext_font_CourierBold[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeMonoBold.ttf";
-char ext_font_CourierOblique[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeMonoOblique.ttf";
-char ext_font_CourierBoldOblique[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeMonoBoldOblique.ttf";
-char ext_font_Helvetica[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSans.ttf";
-char ext_font_HelveticaBold[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSansBold.ttf";
-char ext_font_HelveticaOblique[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSansOblique.ttf";
-char ext_font_HelveticaBoldOblique[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSans.ttf";
-char ext_font_TimesRoman[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSerif.ttf";
-char ext_font_TimesBold[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSerifBold.ttf";
-char ext_font_TimesItalic[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSerifItalic.ttf";
-char ext_font_TimesBoldItalic[1024]; // = "/sdcard/.org.ebookdroid/fonts/FreeSerifBoldItalic.ttf";
-char ext_font_Symbol[1024]; // = "/sdcard/.org.ebookdroid/fonts/StandardSymL.cff";
-char ext_font_ZapfDingbats[1024]; // = "/sdcard/.org.ebookdroid/fonts/Dingbats.cff";
+char ext_font_Courier[1024]; //= "/sdcard/.org.documentviewer/fonts/FreeMono.ttf";
+char ext_font_CourierBold[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeMonoBold.ttf";
+char ext_font_CourierOblique[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeMonoOblique.ttf";
+char ext_font_CourierBoldOblique[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeMonoBoldOblique.ttf";
+char ext_font_Helvetica[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSans.ttf";
+char ext_font_HelveticaBold[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSansBold.ttf";
+char ext_font_HelveticaOblique[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSansOblique.ttf";
+char ext_font_HelveticaBoldOblique[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSans.ttf";
+char ext_font_TimesRoman[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSerif.ttf";
+char ext_font_TimesBold[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSerifBold.ttf";
+char ext_font_TimesItalic[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSerifItalic.ttf";
+char ext_font_TimesBoldItalic[1024]; // = "/sdcard/.org.documentviewer/fonts/FreeSerifBoldItalic.ttf";
+char ext_font_Symbol[1024]; // = "/sdcard/.org.documentviewer/fonts/StandardSymL.cff";
+char ext_font_ZapfDingbats[1024]; // = "/sdcard/.org.documentviewer/fonts/Dingbats.cff";
 
 int file_exists(char * filename)
 {

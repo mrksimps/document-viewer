@@ -1080,7 +1080,7 @@ fz_draw_fill_image(fz_device *devp, fz_image *image, fz_matrix ctm, float alpha)
 		}
 
 		// EBD: inverted mode >>>
-		if (ctx->ebookdroid_nightmode) {
+		if (ctx->documentviewer_nightmode) {
 			inverted = fz_new_pixmap(ctx, pixmap->colorspace, pixmap->w, pixmap->h);
 			memcpy(inverted->samples, pixmap->samples, pixmap->n * pixmap->w * pixmap->h);
 			fz_invert_pixmap(ctx, inverted);
@@ -1097,7 +1097,7 @@ fz_draw_fill_image(fz_device *devp, fz_image *image, fz_matrix ctm, float alpha)
 	fz_always(ctx)
 	{
 		// EBD: inverted mode >>>
-		if (ctx->ebookdroid_nightmode) {
+		if (ctx->documentviewer_nightmode) {
 			fz_drop_pixmap(ctx, inverted);
 		}
 		// EBD: inverted mode <<<
@@ -1168,7 +1168,7 @@ fz_draw_fill_image_mask(fz_device *devp, fz_image *image, fz_matrix ctm,
 		colorbv[i] = alpha * 255;
 
 		// EBD: inverted mode >>>
-		if (ctx->ebookdroid_nightmode) {
+		if (ctx->documentviewer_nightmode) {
 			inverted = fz_new_pixmap(ctx, pixmap->colorspace, pixmap->w, pixmap->h);
 			memcpy(inverted->samples, pixmap->samples, pixmap->n * pixmap->w * pixmap->h);
 			fz_invert_pixmap(ctx, inverted);
@@ -1188,7 +1188,7 @@ fz_draw_fill_image_mask(fz_device *devp, fz_image *image, fz_matrix ctm,
 	fz_always(ctx)
 	{
 		// EBD: inverted mode >>>
-		if (ctx->ebookdroid_nightmode) {
+		if (ctx->documentviewer_nightmode) {
 			fz_drop_pixmap(ctx, inverted);
 		}
 		// EBD: inverted mode <<<

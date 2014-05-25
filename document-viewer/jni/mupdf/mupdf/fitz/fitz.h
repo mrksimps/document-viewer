@@ -288,8 +288,8 @@ struct fz_context_s
 	fz_store *store;
 	fz_glyph_cache *glyph_cache;
 	// EBD: context flags >>>
-	int ebookdroid_nightmode;
-	int ebookdroid_slowcmyk;
+	int documentviewer_nightmode;
+	int documentviewer_slowcmyk;
 	// EBD: context flags <<<
 };
 

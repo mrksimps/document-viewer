@@ -1,7 +1,7 @@
 package org.emdev.ui;
 
 import org.sufficientlysecure.viewer.R;
-import org.ebookdroid.ui.about.AboutActivity;
+import org.documentviewer.ui.about.AboutActivity;
 
 import android.app.Activity;
 import android.content.Intent;

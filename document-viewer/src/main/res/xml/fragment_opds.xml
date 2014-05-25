@@ -1,5 +1,5 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ebookdroid="http://ebookdroid.org"
+    xmlns:documentviewer="http://documentviewer.org"
     android:key="opds_prefs"
     android:summary="@string/pref_opds_category_summary"
     android:title="@string/pref_opds_category" >

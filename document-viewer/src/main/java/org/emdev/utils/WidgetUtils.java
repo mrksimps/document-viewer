@@ -7,7 +7,7 @@ public final class WidgetUtils {
 
     public static final String ANDROID_NS = "http://schemas.android.com/apk/res/android";
 
-    public static final String EBOOKDROID_NS = "http://ebookdroid.org";
+    public static final String DOCUMENTVIEWER_NS = "http://documentviewer.org";
 
     public static final String ATTR_JSON_PROPERTY = "jsonProperty";
 

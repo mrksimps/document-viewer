@@ -1,6 +1,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ebookdroid="http://ebookdroid.org"
+    xmlns:documentviewer="http://documentviewer.org"
     android:summary="@string/pref_scroll_category_summary"
     android:title="@string/pref_scroll_category" >
 
@@ -13,8 +13,8 @@
     <org.emdev.ui.preference.SeekBarPreference
             android:defaultValue="@string/pref_scrollheight_defvalue"
             android:key="@string/pref_scrollheight_id"
-            ebookdroid:minValue="@string/pref_scrollheight_minvalue"
-            ebookdroid:maxValue="@string/pref_scrollheight_maxvalue"
+            documentviewer:minValue="@string/pref_scrollheight_minvalue"
+            documentviewer:maxValue="@string/pref_scrollheight_maxvalue"
             android:summary="@string/pref_scroll_summary"
             android:title="@string/pref_scroll_title" />
 

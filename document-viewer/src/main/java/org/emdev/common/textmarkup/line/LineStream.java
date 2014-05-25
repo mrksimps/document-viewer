@@ -1,7 +1,7 @@
 package org.emdev.common.textmarkup.line;
 
-import org.ebookdroid.droids.fb2.codec.LineCreationParams;
-import org.ebookdroid.droids.fb2.codec.ParsedContent;
+import org.documentviewer.droids.fb2.codec.LineCreationParams;
+import org.documentviewer.droids.fb2.codec.ParsedContent;
 
 import java.util.ArrayList;
 import java.util.Collection;

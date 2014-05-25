@@ -12,7 +12,7 @@
     <string name="menu_add_bookmark">"Inserisci segnalibro"</string>
     <string name="menu_edit_bookmark">"Modifica segnalibro"</string>
     <string name="menu_thumbnail">"Usa come copertina"</string>
-    <string name="menu_about">"Info su EBookDroid"</string>
+    <string name="menu_about">"Info su Document Viewer"</string>
     <string name="menu_tap_configuration">"Configura gesti"</string>
     <string name="menu_key_bindings">"Configura comandi"</string>
     <string name="menu_searchbook">"Cerca libro"</string>

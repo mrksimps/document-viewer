@@ -49,7 +49,7 @@ public class JsonSwitchPreferenceEx extends SwitchPreference {
     public JsonSwitchPreferenceEx(final Context context, final AttributeSet attrs) {
         super(context, attrs);
         def = new JsonObjectPreferenceDefinition(getKey());
-        jsonProperty = WidgetUtils.getStringAttribute(context, attrs, WidgetUtils.EBOOKDROID_NS, WidgetUtils.ATTR_JSON_PROPERTY, null);
+        jsonProperty = WidgetUtils.getStringAttribute(context, attrs, WidgetUtils.DOCUMENTVIEWER_NS, WidgetUtils.ATTR_JSON_PROPERTY, null);
         defValue = WidgetUtils.getBooleanAttribute(context, attrs, WidgetUtils.ANDROID_NS, WidgetUtils.ATTR_DEFAULT_VALUE, null);
         setKey(def.key + "." + jsonProperty);
     }
@@ -57,7 +57,7 @@ public class JsonSwitchPreferenceEx extends SwitchPreference {
     public JsonSwitchPreferenceEx(final Context context, final AttributeSet attrs, final int defStyle) {
         super(context, attrs, defStyle);
         def = new JsonObjectPreferenceDefinition(getKey());
-        jsonProperty = WidgetUtils.getStringAttribute(context, attrs, WidgetUtils.EBOOKDROID_NS, WidgetUtils.ATTR_JSON_PROPERTY, null);
+        jsonProperty = WidgetUtils.getStringAttribute(context, attrs, WidgetUtils.DOCUMENTVIEWER_NS, WidgetUtils.ATTR_JSON_PROPERTY, null);
         defValue = WidgetUtils.getBooleanAttribute(context, attrs, WidgetUtils.ANDROID_NS, WidgetUtils.ATTR_DEFAULT_VALUE, null);
         setKey(def.key + "." + jsonProperty);
     }

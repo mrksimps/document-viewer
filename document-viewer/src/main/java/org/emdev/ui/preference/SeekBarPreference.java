@@ -38,9 +38,9 @@ public final class SeekBarPreference extends DialogPreference implements OnSeekB
         super(context, attrs);
         handler = new SeekBarIncrementHandler();
 
-        minValue = WidgetUtils.getIntAttribute(context, attrs, WidgetUtils.EBOOKDROID_NS, WidgetUtils.ATTR_MIN_VALUE,
+        minValue = WidgetUtils.getIntAttribute(context, attrs, WidgetUtils.DOCUMENTVIEWER_NS, WidgetUtils.ATTR_MIN_VALUE,
                 DEFAULT_MIN_VALUE);
-        maxValue = WidgetUtils.getIntAttribute(context, attrs, WidgetUtils.EBOOKDROID_NS, WidgetUtils.ATTR_MAX_VALUE,
+        maxValue = WidgetUtils.getIntAttribute(context, attrs, WidgetUtils.DOCUMENTVIEWER_NS, WidgetUtils.ATTR_MAX_VALUE,
                 DEFAULT_MAX_VALUE);
         defaultValue = WidgetUtils.getIntAttribute(context, attrs, WidgetUtils.ANDROID_NS,
                 WidgetUtils.ATTR_DEFAULT_VALUE, DEFAULT_DEFAULT_VALUE);

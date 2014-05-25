@@ -1,14 +1,14 @@
     <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:ebookdroid="http://ebookdroid.org"
+        xmlns:documentviewer="http://documentviewer.org"
         android:summary="@string/pref_performance_category_summary"
         android:title="@string/pref_performance_category" >
 
         <org.emdev.ui.preference.SeekBarPreference
             android:defaultValue="@string/pref_pagesinmemory_defvalue"
             android:key="@string/pref_pagesinmemory_id"
-            ebookdroid:minValue="@string/pref_pagesinmemory_minvalue"
-            ebookdroid:maxValue="@string/pref_pagesinmemory_maxvalue"
+            documentviewer:minValue="@string/pref_pagesinmemory_minvalue"
+            documentviewer:maxValue="@string/pref_pagesinmemory_maxvalue"
             android:summary="@string/pref_pagesinmemory_summary"
             android:title="@string/pref_pagesinmemory_title" />
 
@@ -19,8 +19,8 @@
             <org.emdev.ui.preference.SeekBarPreference
                 android:defaultValue="@string/pref_decoding_threads_defvalue"
                 android:key="@string/pref_decoding_threads_id"
-                ebookdroid:minValue="@string/pref_decoding_threads_minvalue"
-                ebookdroid:maxValue="@string/pref_decoding_threads_maxvalue"
+                documentviewer:minValue="@string/pref_decoding_threads_minvalue"
+                documentviewer:maxValue="@string/pref_decoding_threads_maxvalue"
                 android:summary="@string/pref_decoding_threads_summary"
                 android:title="@string/pref_decoding_threads_title" />
 
@@ -57,16 +57,16 @@
             <org.emdev.ui.preference.SeekBarPreference
                 android:defaultValue="@string/pref_heappreallocate_defvalue"
                 android:key="@string/pref_heappreallocate_id"
-                ebookdroid:minValue="@string/pref_heappreallocate_minvalue"
-                ebookdroid:maxValue="@string/pref_heappreallocate_maxvalue"
+                documentviewer:minValue="@string/pref_heappreallocate_minvalue"
+                documentviewer:maxValue="@string/pref_heappreallocate_maxvalue"
                 android:summary="@string/pref_heappreallocate_summary"
                 android:title="@string/pref_heappreallocate_title" />
 
             <org.emdev.ui.preference.SeekBarPreference
                 android:defaultValue="@string/pref_pdfstoragesize_defvalue"
                 android:key="@string/pref_pdfstoragesize_id"
-                ebookdroid:minValue="@string/pref_pdfstoragesize_minvalue"
-                ebookdroid:maxValue="@string/pref_pdfstoragesize_maxvalue"
+                documentviewer:minValue="@string/pref_pdfstoragesize_minvalue"
+                documentviewer:maxValue="@string/pref_pdfstoragesize_maxvalue"
                 android:summary="@string/pref_pdfstoragesize_summary"
                 android:title="@string/pref_pdfstoragesize_title" />
 

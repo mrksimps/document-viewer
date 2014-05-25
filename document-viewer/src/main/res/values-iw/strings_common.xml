@@ -116,7 +116,7 @@
     <string name="notification_file_add">"הקובץ יתווסף להספריה"</string>
     <string name="notification_file_delete">"קובץ נמחק מהספרייה"</string>
     <string name="font_reminder_title">"תשומת לב"</string>
-    <string name="font_reminder">"החל בגרסה 1.5 של התכנית הוסרו גופנים המוטבעים, המשמשים להצגת ספרים בפורמט PDF וfb2. עכשיו, במקומם משתמשים בגופנים הסטנדרטיים של אנדרואיד. אם אתה רוצה לחזיר אותם או להתקין גופנים חדשים, להוריד את הגופנים משוק של Google Play: &lt;ul&gt; &lt;li&gt; &lt;a href=market://details?id=org.ebookdroid.fontpack.legacy&gt; גופן ישן &lt;/ a&gt; &lt;/ Li&gt; &lt;/ ul&gt;"</string>
+    <string name="font_reminder">"החל בגרסה 1.5 של התכנית הוסרו גופנים המוטבעים, המשמשים להצגת ספרים בפורמט PDF וfb2. עכשיו, במקומם משתמשים בגופנים הסטנדרטיים של אנדרואיד. אם אתה רוצה לחזיר אותם או להתקין גופנים חדשים, להוריד את הגופנים משוק של Google Play: &lt;ul&gt; &lt;li&gt; &lt;a href=https://f-droid.org/repository/browse/?fdfilter=document%20viewer&amp;fdid=org.sufficientlysecure.viewer.fontpack&gt; גופן ישן &lt;/ a&gt; &lt;/ Li&gt; &lt;/ ul&gt;"</string>
     <string name="cache_moving_text">"העברת קבצים למטמון ..."</string>
     <string name="cache_moving_progress">"העברת קובץ %1$d %2$d"</string>
 <!--<string name="error_invalid_view_mode">"This action is only available in view mode %1$s"</string>-->

@@ -1,7 +1,7 @@
 package org.emdev.common.textmarkup.line;
 
-import org.ebookdroid.droids.fb2.codec.FB2Page;
-import org.ebookdroid.droids.fb2.codec.ParsedContent;
+import org.documentviewer.droids.fb2.codec.FB2Page;
+import org.documentviewer.droids.fb2.codec.ParsedContent;
 
 import android.graphics.Canvas;
 

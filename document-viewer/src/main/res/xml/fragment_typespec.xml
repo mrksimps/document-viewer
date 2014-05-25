@@ -1,5 +1,5 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ebookdroid="http://ebookdroid.org"
+    xmlns:documentviewer="http://documentviewer.org"
     android:summary="@string/pref_brfiletypespecific_summary"
     android:title="@string/pref_brfiletypespecific_title" >
 
@@ -35,8 +35,8 @@
             android:key="@string/pref_xdpi_id"
             android:summary="@string/pref_xdpi_summary"
             android:title="@string/pref_xdpi_title"
-            ebookdroid:maxValue="@string/pref_xdpi_maxvalue"
-            ebookdroid:minValue="@string/pref_xdpi_minvalue" />
+            documentviewer:maxValue="@string/pref_xdpi_maxvalue"
+            documentviewer:minValue="@string/pref_xdpi_minvalue" />
 
         <org.emdev.ui.preference.SeekBarPreference
             android:defaultValue="@string/pref_ydpi_defvalue"
@@ -44,43 +44,43 @@
             android:key="@string/pref_ydpi_id"
             android:summary="@string/pref_ydpi_summary"
             android:title="@string/pref_ydpi_title"
-            ebookdroid:maxValue="@string/pref_ydpi_maxvalue"
-            ebookdroid:minValue="@string/pref_ydpi_minvalue" />
+            documentviewer:maxValue="@string/pref_ydpi_maxvalue"
+            documentviewer:minValue="@string/pref_ydpi_minvalue" />
 
         <org.emdev.ui.preference.FontPickerPreference
             android:defaultValue="@string/pref_monofontpack_defvalue"
             android:key="@string/pref_monofontpack_id"
             android:summary="@string/pref_monofontpack_summary"
             android:title="@string/pref_monofontpack_title"
-            ebookdroid:fontFamily="mono" />
+            documentviewer:fontFamily="mono" />
 
         <org.emdev.ui.preference.FontPickerPreference
             android:defaultValue="@string/pref_sansfontpack_defvalue"
             android:key="@string/pref_sansfontpack_id"
             android:summary="@string/pref_sansfontpack_summary"
             android:title="@string/pref_sansfontpack_title"
-            ebookdroid:fontFamily="sans" />
+            documentviewer:fontFamily="sans" />
 
         <org.emdev.ui.preference.FontPickerPreference
             android:defaultValue="@string/pref_seriffontpack_defvalue"
             android:key="@string/pref_seriffontpack_id"
             android:summary="@string/pref_seriffontpack_summary"
             android:title="@string/pref_seriffontpack_title"
-            ebookdroid:fontFamily="serif" />
+            documentviewer:fontFamily="serif" />
 
         <org.emdev.ui.preference.FontPickerPreference
             android:defaultValue="@string/pref_symbolfontpack_defvalue"
             android:key="@string/pref_symbolfontpack_id"
             android:summary="@string/pref_symbolfontpack_summary"
             android:title="@string/pref_symbolfontpack_title"
-            ebookdroid:fontFamily="symbol" />
+            documentviewer:fontFamily="symbol" />
 
         <org.emdev.ui.preference.FontPickerPreference
             android:defaultValue="@string/pref_dingbatfontpack_defvalue"
             android:key="@string/pref_dingbatfontpack_id"
             android:summary="@string/pref_dingbatfontpack_summary"
             android:title="@string/pref_dingbatfontpack_title"
-            ebookdroid:fontFamily="dingbat" />
+            documentviewer:fontFamily="dingbat" />
 
         <CheckBoxPreference
             android:defaultValue="@string/pref_slowcmyk_defvalue"
